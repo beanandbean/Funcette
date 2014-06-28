@@ -1,0 +1,4 @@
+print "By '-' \t\t" (7 - 5) (- 5 7) ((-) 7 5) ((- 5) 7) ((7 -) 5) "\n"
+print "By (mid)sub \t" (7 `sub` 5) (`sub` 5 7) ((`sub`) 7 5) ((`sub` 5) 7) ((7 `sub`) 5) "\n"
+print "By sub \t\t" (sub 7 5) ((sub 7) 5) ((sub) 7 5) "\n"
+println (5 * 6 - 7 / 1 + 6 * 3 - 2 / 2)
